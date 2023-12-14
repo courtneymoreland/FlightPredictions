@@ -30,6 +30,14 @@ For a comprehensive demonstration, please refer to the [Software Demo Video](htt
 6. **Is there a difference in the amount of delays based on the arrival airport?**
    - Similar to departure airports, arrival airports show variations in delay percentages.
    - The airport with the highest percentage of delays is Muskegon airport (mkg) in Michigan, where **47.5%** of all arrivals are delayed.
+# Model Training Outcomes
+**Confusion Matrix**
+![Confusion Matrix](/img/confusion_matrix.png)
+**ROC curve and Precision-recall curve**
+![ROC curve and Precision-recall curve](/img/curves.png)
+**ROC AUC SCORE**
+![ROC AUC SCORE](/img/score.png)
+
 # Development Environment
 
 The software was developed using Python and Visual Studio Code. The key tools and libraries include:
